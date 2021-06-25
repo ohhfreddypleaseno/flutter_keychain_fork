@@ -317,8 +317,8 @@ class FlutterKeychainPlugin : MethodCallHandler {
                 else -> result.notImplemented()
             }
         } catch (e: Exception) {
-            Log.e("flutter_keychain", e.message ?: e.toString())
-            result.error("flutter_keychain", e.message, e)
+//            Log.e("flutter_keychain", e.message ?: e.toString())
+//            result.error("flutter_keychain", e.message, e)
         }
     }
 }
